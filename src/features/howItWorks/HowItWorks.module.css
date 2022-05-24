@@ -1,0 +1,40 @@
+.steps .card {
+  width: 21em;
+  background-color: white;
+  text-align: center;
+  line-height: 1.3em;
+  border: none;
+  border-radius: 0.2em;
+  box-shadow: -1px 1px 10px 10px rgb(236, 234, 234);
+}
+
+.icon {
+  width: 45%;
+  border-radius: 50%;
+  border: 1px solid orange;
+  padding-top: 10px;
+}
+
+.iconTwo {
+  width: 47%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.steps h4 {
+  color: #2f2e41;
+  font-weight: 700;
+}
+
+.steps h3 {
+  color: #2f2e41;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.border {
+  border: 2px solid orange;
+  width: 50px;
+  margin: auto;
+  opacity: 1;
+}

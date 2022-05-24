@@ -1,0 +1,52 @@
+.box1 {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-size: large;
+  color: #2f2e41;
+  font-family: "DM Sans", sans-serif;
+}
+
+.title {
+  font-size: 45px;
+  color: #2f2e41;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+.get_started {
+  background: orange;
+  color: #fff;
+  padding: 8px 30px;
+  font-size: large;
+  border: none;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: 0.25s;
+}
+
+.get_started:hover {
+  background: rgb(241, 162, 15);
+  color: #fff;
+}
+
+.get_started:hover,
+.get_started:focus {
+  box-shadow: inset 8em -1px 0 0 black;
+}
+
+@media screen and (max-width: 780px) {
+  .box2 {
+    order: 1;
+  }
+
+  .box1 {
+    order: 2;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
