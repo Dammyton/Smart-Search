@@ -23,7 +23,7 @@ Project is created with:
 
 ## Demo
 
-Here is a working live demo : 
+Here is a working live demo : https://smartsearch-app.herokuapp.com/
 
 ## Setup
 
